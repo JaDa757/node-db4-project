@@ -20,7 +20,7 @@ const step_ingredients = [
     { step_id: 3, ingredient_id: 3, quantity: 2 },
     //Lemon Chicken
     { step_id: 5, ingredient_id: 4, quantity: 1 },
-    { step_id: 5, ingredient_id: 5, quantiti: 0.4 },
+    { step_id: 5, ingredient_id: 5, quantity: 0.4 },
     //Salmon 
     { step_id: 7, ingredient_id: 6, quantity: 1 },
 
