@@ -4,7 +4,7 @@ const sharedConfig = {
     seeds: { directory: './data/seeds' },
     //sqlite3
     useNullAsDefault: true,
-    pool: { afterCreate: (conn, done) => conn.run('{PRAGMA foreign_keys = ON', done) },
+    pool: { afterCreate: (conn, done) => conn.run('PRAGMA foreign_keys = ON', done) },
 }
 
 module.exports = {
