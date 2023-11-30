@@ -1,6 +1,6 @@
 const sharedConfig = {
     client: 'sqlite3',
-    migrations: { directory: './data/migrations'},
+    migrations: { directory: './data/migrations' },
     seeds: { directory: './data/seeds' },
     //sqlite3
     useNullAsDefault: true,
@@ -10,11 +10,11 @@ const sharedConfig = {
 module.exports = {
     development: {
         ...sharedConfig,
-        connection: { filename: './data/cook_book.db3'},
+        connection: { filename: './data/cook_book.db3' },
     },
     testing: {
-        ...sharedConfig, 
+        ...sharedConfig,
         connection: { filename: './data/cook_book.test.db3' }
     },
-    production : {}
+    production: {}
 }
